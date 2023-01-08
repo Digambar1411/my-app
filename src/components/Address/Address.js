@@ -1,5 +1,6 @@
 import React from "react";
 import "./Address.css";
+import locationImage from "../../../src/location_image.png";
 
 function Address({ selectedUser }) {
 	return (
@@ -23,7 +24,9 @@ function Address({ selectedUser }) {
 							</div>
 						</div>
 
-						<div className="geo-address"></div>
+						<div className="geo-address">
+							<img className="location-image" src={locationImage} alt="location-pic"/>						
+						</div>
 
 						<div className="geo-lattitudes">
 							<div>
