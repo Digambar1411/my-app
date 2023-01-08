@@ -1,7 +1,7 @@
-:root{
-    --color-gray:#a8a6a6;
-    --color-dark-gray:#6b6666;
-    --color-light:#fffbfb;
+:root {
+	--color-gray: #a8a6a6;
+	--color-dark-gray: #6b6666;
+	--color-light: #fffbfb;
 }
 
 .home-page {
@@ -38,10 +38,10 @@
 	justify-content: center;
 	gap: 10px;
 	line-height: 2.5rem;
+	color: var(--color-gray);
 }
 
 .main-left > div > span {
-	color: var(--color-gray);
 	width: 130px;
 	display: flex;
 	justify-content: flex-end;
@@ -59,12 +59,12 @@
 	height: 5px;
 }
 
-.user-name{
+.user-name {
 	color: var(--color-dark-gray);
 	margin: 8px 0;
 }
 
-.company{
+.company {
 	margin: 6px 0;
 	color: var(--color-gray);
 }
