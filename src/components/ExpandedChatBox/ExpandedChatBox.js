@@ -15,7 +15,7 @@ function ExpandedChatBox({ setExpanded }) {
 				{users.map((user) => {
 					return (
 						<div
-							key={user.key}
+							key={user.id}
 							className="flex-row flex-center user-account chatbox-user"
 							onClick={() => {
 								setChatuser(user);
@@ -35,6 +35,7 @@ function ExpandedChatBox({ setExpanded }) {
 					);
 				})}
 			</section>
+
 			{indivisualChatBox && (
 				<IndivisualChatBox
 					chatuser={chatuser}
