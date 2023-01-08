@@ -26,6 +26,7 @@ function Landing() {
 								<img
 									className="user-profile-pic-sm"
 									src={`${user.profilepicture}`}
+									alt="user-profile-pic"
 								/>
 								<span>{user.name}</span>
 							</div>

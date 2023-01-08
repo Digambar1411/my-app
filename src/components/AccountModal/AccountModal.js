@@ -40,6 +40,7 @@ function AccountModal({ setAccountModal, currentUser }) {
 						<img
 							className="user-profile-pic-sm"
 							src={`${user.profilepicture}`}
+							alt="user-profile-pic"
 						/>
 						<p className="user-name">{user.name}</p>
 					</div>

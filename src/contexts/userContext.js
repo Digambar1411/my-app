@@ -14,7 +14,7 @@ const UsersProvider=({children})=>{
 	const [loggedInUsers, setLoggedInUsers] = useState([])
 
 	const GetSelectedUser =(id)=>{
-		setCurrentUser(users.filter(user=>{return user.id==id}))
+		setCurrentUser(users.filter(user=>{return user.id===id}))
 	};
 
 

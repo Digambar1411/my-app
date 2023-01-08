@@ -1,11 +1,10 @@
 import React, {  useState } from "react";
 import "./Nav.css";
 import { useUsers } from "../../contexts/userContext";
-import { useParams, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { AccountModal } from "../AccountModal/AccountModal";
 
 function Nav() {
-	const { id } = useParams();
 	const { currentUser} = useUsers();
 	const { pathname } = useLocation();
 	const [accountModal, setAccountModal] = useState(false);

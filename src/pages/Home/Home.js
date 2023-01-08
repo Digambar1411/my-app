@@ -19,6 +19,7 @@ function Home() {
 									<img
 										className="profile-pic-large"
 										src={user.profilepicture}
+										alt="user-profile-pic"
 									/>
 									<strong className="user-name center">{user.name}</strong>
 									<div>
