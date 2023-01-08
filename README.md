@@ -2,7 +2,8 @@
 
 Preview Link : https://digambar-task.netlify.app/
 
-Live Demo : https://vimeo.com/787280295/354d47d97f
+
+![](https://github.com/Digambar1411/my-app/blob/master/ezgif.com-gif-maker.gif)
 
 ## Run Locally
 
