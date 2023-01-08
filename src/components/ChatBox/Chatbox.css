@@ -1,0 +1,41 @@
+:root{
+	--light-blue:#3a34ef;
+}
+
+.chatbox {
+	margin-left: auto;
+	width: 200px;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	padding: 6px 12px;
+	background-color: var(--light-blue);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.chatbox-position {
+	position: relative;
+	bottom: 0px;
+	right: 3rem;
+}
+
+.expanded-chatbox-position {
+	position: relative;
+	bottom: 336px; /* equal to expanded section height */
+	right: 3rem;
+}
+
+.chatbox > div {
+	letter-spacing: 1px;
+}
+
+.chatbox > span:last-child {
+	margin-left: auto;
+}
+
+.chatbox > span:first-child {
+	margin-right: 10px;
+}
