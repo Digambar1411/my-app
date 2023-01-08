@@ -1,0 +1,70 @@
+.address-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.address-title{
+    margin-block-start:0rem;
+    color:var(--color-gray);
+}
+
+.text-address{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.text-address > div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    line-height: 2rem;
+    color:var(--color-gray);
+}
+
+.text-address > div > span{
+    width:80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-address > div > strong{
+    color:var(--color-dark-gray);
+    width:180px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.geo-lattitudes span{
+    color:var(--color-gray);
+}
+
+.geo-lattitudes strong{
+    color:var(--color-dark-gray);
+}
+
+.geo-address{
+    width: 96%;
+    height: 50vh;
+    background-color: aquamarine;
+    margin: 0 auto;
+    margin-left:4%;
+    border-radius: 20px;
+   
+}
+
+.geo-lattitudes{
+    display:flex;
+    font-size:14px;
+    justify-content: flex-end;
+    gap:14px;
+}
+

@@ -1,0 +1,50 @@
+.chatbox-users-container {
+	background-color: var(--white-background);
+	width: 198px;
+	padding: 8px 12px;
+	border-right: 1px solid var(--light-blue);
+	border-left: 1px solid var(--light-blue);
+	position: absolute;
+	right: 0;
+	top: 52;
+}
+
+.user-profile-pic-vsm {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
+
+.chatbox-user {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	gap: 8px;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.chatbox-user > p {
+	width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.chatbox-user > span {
+	margin-left: auto;
+}
+
+.status {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+
+.offline {
+	background-color: var(--color-gray);
+}
+
+.online {
+	background-color: #189518;
+}
